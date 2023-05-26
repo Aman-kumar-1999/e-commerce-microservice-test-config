@@ -20,7 +20,7 @@ spring:
       - id: ORDER-SERVICE
         uri: lb://ORDER-SERVICE
         predicates:
-        - Path=/hotel/**
+        - Path=/order/**
 #         for all urls
 #         - Path=/**
 #         for single rest controller
