@@ -1,0 +1,24 @@
+# EQIPPED_DEFAULT_SERVICE
+
+# port
+server:
+  port: 4999
+
+#eureka server config
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:5000/eureka  
+ 
+#spring config  
+# spring:
+#   application:
+#     name: EQIPPED_DEFAULT_SERVICE
+#   data:
+#     mongodb:
+#       uri: mongodb://localhost:27017
+#       database: microservicereatingservice
