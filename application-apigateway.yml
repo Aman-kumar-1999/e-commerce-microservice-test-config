@@ -15,12 +15,12 @@ spring:
       - id: USER-SERVICE
         uri: lb://USER-SERVICE
         predicates:
-        - Path=/**
+        - Path=/user/**
         
       - id: ORDER-SERVICE
         uri: lb://ORDER-SERVICE
         predicates:
-        - Path=/**
+        - Path=/hotel/**
 #         for all urls
 #         - Path=/**
 #         for single rest controller
