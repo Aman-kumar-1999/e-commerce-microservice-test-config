@@ -12,10 +12,10 @@ spring:
               allowedMethods: "*"
               allowedHeaders: "*"
       routes:
-      - id: USER-SERVICE
-        uri: lb://USER-SERVICE
-        predicates:
-        - Path=/**
+#       - id: USER-SERVICE
+#         uri: lb://USER-SERVICE
+#         predicates:
+#         - Path=/**
         
       - id: ORDER-SERVICE
         uri: lb://ORDER-SERVICE
