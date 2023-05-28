@@ -21,6 +21,11 @@ spring:
         uri: lb://ORDER-SERVICE
         predicates:
         - Path=/order/**
+        
+      - id: PRODUCT-SERVICE
+        uri: lb://PRODUCT-SERVICE
+        predicates:
+        - Path=/product/**
 #         for all urls
 #         - Path=/**
 #         for single rest controller
