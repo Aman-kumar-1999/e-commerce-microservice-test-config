@@ -12,6 +12,8 @@ eureka:
     service-url:
       defaultZone: http://localhost:5000/eureka
 # Eureka End
+project:
+  image: images/
 
 # Spring Start
 spring:
