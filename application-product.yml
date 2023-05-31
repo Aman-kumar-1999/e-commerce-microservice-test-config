@@ -10,11 +10,12 @@ eureka:
     fetch-registry: true
     register-with-eureka: true
     service-url:
-      defaultZone: http://localhost:5000/eureka
+      defaultZone: http://3.7.18.180:5000/eureka
 # Eureka End
 project:
-  image: /images/
+  image: http://3.6.36.232/image/
   upload: D:\\eqipped\\eqipped_image
+#   upload: /var/www/html/image
 
 # Spring Start
 spring:
