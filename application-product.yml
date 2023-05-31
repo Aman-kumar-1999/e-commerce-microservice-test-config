@@ -1,7 +1,8 @@
 # Eqipped product Service
 server:
   port: 5005
-
+UPLOAD_DIR: D:\\eqipped\\eqipped_image
+GET_DIR: /images/
 # Eureka start
 eureka:
   instance:
