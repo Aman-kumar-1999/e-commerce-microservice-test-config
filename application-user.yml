@@ -18,7 +18,7 @@ spring:
     name: USER-SERVICE
   data:
     mongodb:
-       uri: mongodb+srv://admin:gsk3E1ZwjWwgqAoC@cluster0.9xkoq.mongodb.net/
+      uri: mongodb+srv://admin:gsk3E1ZwjWwgqAoC@cluster0.9xkoq.mongodb.net/
       database: eqipped_new
 #   datasource:
 #     url: jdbc:oracle:thin:@localhost:1521:xe
