@@ -18,12 +18,12 @@ spring:
         - Path=/user/**
         
       - id: ORDER-SERVICE
-        uri: lb://ORDER-SERVICE
+        uri: http://13.234.19.166:5004
         predicates:
         - Path=/order/**
         
       - id: PRODUCT-SERVICE
-        uri: lb://PRODUCT-SERVICE
+        uri: http://44.205.250.150:5005
         predicates:
         - Path=/product/**
 #         for all urls
