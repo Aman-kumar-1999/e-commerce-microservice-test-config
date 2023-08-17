@@ -13,7 +13,7 @@ spring:
               allowedHeaders: "*"
       routes:
       - id: USER-SERVICE
-        uri: lb://USER-SERVICE
+        uri: http://13.234.19.166:5003
         predicates:
         - Path=/user/**
         
