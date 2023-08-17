@@ -9,7 +9,7 @@ eureka:
     fetch-registry: true
     register-with-eureka: true
     service-url:
-      defaultZone: http://localhost:5000/eureka
+      defaultZone: http://13.233.173.112:5000/eureka
 # Eureka End
 
 # Spring Start
