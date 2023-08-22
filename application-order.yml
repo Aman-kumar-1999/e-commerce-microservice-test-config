@@ -7,6 +7,11 @@ key:
   source: Web api
   templateparams: Yes
   updatetemplateParams: Yes
+  ccavenue:
+    redirecturl: http://localhost:8091/HealthDashBoard/data/ccavResponseHandler
+    cancelUrl: http://localhost:8091/HealthDashBoard/data/ccavResponseHandler
+    paymentApiUrl: http://localhost:8091/HealthDashBoard/pay/makePayment
+    merchantId: 1228214
 # Eureka start
 eureka:
   instance:
