@@ -12,6 +12,13 @@ key:
     cancelUrl: https://payment.eqipped.com/data/ccavResponseHandler
     paymentApiUrl: https://payment.eqipped.com/pay/makePayment
     merchantId: 1228214
+  easebuzz:
+    redirecturl: http://localhost:8090/EasebuzzPayment/response
+    cancelUrl: http://localhost:8090/EasebuzzPayment/response
+    paymentApiUrl: http://localhost:8090/EasebuzzPayment/pay/initiatepayment/
+    salt: DAH88E3UWQ
+    key: 2PBP7IABZ2
+    baseUrl: https://testpay.easebuzz.in/
 # Eureka start
 eureka:
   instance:
