@@ -20,7 +20,7 @@ key:
     salt: DAH88E3UWQ
     key: 2PBP7IABZ2
     baseUrl: https://testpay.easebuzz.in/
-    enable: YES
+    enable: NO
 # Eureka start
 eureka:
   instance:
