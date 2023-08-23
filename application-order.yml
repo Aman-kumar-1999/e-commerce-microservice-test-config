@@ -8,10 +8,10 @@ key:
   templateparams: Yes
   updatetemplateParams: Yes
   ccavenue:
-    # redirecturl: https://payment.eqipped.com/data/ccavResponseHandler
-    # cancelUrl: https://payment.eqipped.com/data/ccavResponseHandler
-    redirecturl: http://localhost:8089/CcavenuePayment/data/ccavResponseHandler
-    cancelUrl: http://localhost:8089/CcavenuePayment/data/ccavResponseHandler
+    redirecturl: https://payment.eqipped.com/data/ccavResponseHandler
+    cancelUrl: https://payment.eqipped.com/data/ccavResponseHandler
+    # redirecturl: http://localhost:8089/CcavenuePayment/data/ccavResponseHandler
+    # cancelUrl: http://localhost:8089/CcavenuePayment/data/ccavResponseHandler
     paymentApiUrl: https://payment.eqipped.com/pay/makePayment
     merchantId: 1228214
     enable: ENABLE_YES
