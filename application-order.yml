@@ -14,7 +14,7 @@ key:
     # cancelUrl: http://localhost:8089/CcavenuePayment/data/ccavResponseHandler
     paymentApiUrl: https://payment.eqipped.com/pay/makePayment
     merchantId: 1228214
-    enable: DIENABLE_YES
+    enable: ENABLE_YES
   easebuzz:
     redirecturl:  https://payment.eqipped.com/response
     cancelUrl: https://payment.eqipped.com/response
