@@ -1,6 +1,6 @@
 
 server:
-  port: 5004
+  port: 50004
 key:
   campaigname: Order_Confirmed(3)
   updatecampaigname: Order_Confirmed(3)
@@ -35,7 +35,8 @@ eureka:
     fetch-registry: true
     register-with-eureka: true
     service-url:
-      defaultZone: http://13.233.173.112:5000/eureka
+      #defaultZone: http://13.233.173.112:5000/eureka
+      defaultZone: http://localhost:5000/eureka
 # Eureka End
 
 # Spring Start
