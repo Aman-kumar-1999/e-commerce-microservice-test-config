@@ -13,17 +13,20 @@ spring:
               allowedHeaders: "*"
       routes:
       - id: USER-SERVICE
-        uri: http://13.234.19.166:5003
+        #uri: http://13.234.19.166:5003
+        uri: http://localhost:50003
         predicates:
         - Path=/user/**
         
       - id: ORDER-SERVICE
-        uri: http://13.234.19.166:5004
+        #uri: http://13.234.19.166:5004
+        uri: http://localhost:50004
         predicates:
         - Path=/order/**
         
       - id: PRODUCT-SERVICE
-        uri: http://44.205.250.150:5005
+        #uri: http://44.205.250.150:5005
+        uri: http://localhost:50005
         predicates:
         - Path=/product/**
 #         for all urls
@@ -34,7 +37,7 @@ spring:
 #         - Path=/hotel/**,/staffe/**
 
 server:
-  port: 5002
+  port: 50002
 
 # spring:
 #   application:
@@ -48,5 +51,6 @@ eureka:
     fetch-registry: true
     register-with-eureka: true
     service-url:
-      defaultZone: http://13.233.173.112:5000/eureka/
+      #defaultZone: http://13.233.173.112:5000/eureka/
+      defaultZone: http://localhost:50000/eureka/
   
