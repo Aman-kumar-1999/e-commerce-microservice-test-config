@@ -1,5 +1,5 @@
 server:
-  port: 5003
+  port: 50003
 
 # Eureka start
 eureka:
@@ -9,7 +9,8 @@ eureka:
     fetch-registry: true
     register-with-eureka: true
     service-url:
-      defaultZone: http://43.205.242.0:5000/eureka
+      #defaultZone: http://43.205.242.0:5000/eureka
+      defaultZone: http://localhost:50000/eureka
 # Eureka End
 
 # Spring Start
