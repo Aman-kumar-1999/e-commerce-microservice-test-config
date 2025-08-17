@@ -1,6 +1,6 @@
 # Eqipped product Service
 server:
-  port: 5005
+  port: 50005
 
 # Eureka start
 eureka:
@@ -10,7 +10,8 @@ eureka:
     fetch-registry: true
     register-with-eureka: true
     service-url:
-      defaultZone: http://13.233.173.112:5000/eureka
+      #defaultZone: http://13.233.173.112:5000/eureka
+      defaultZone: http://localhost:50000/eureka
 # Eureka End
 project:
   image: https://eqipped.com/image/
