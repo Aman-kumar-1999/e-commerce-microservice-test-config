@@ -36,7 +36,7 @@ eureka:
     register-with-eureka: true
     service-url:
       #defaultZone: http://13.233.173.112:5000/eureka
-      defaultZone: http://localhost:5000/eureka
+      defaultZone: http://localhost:50000/eureka
 # Eureka End
 
 # Spring Start
